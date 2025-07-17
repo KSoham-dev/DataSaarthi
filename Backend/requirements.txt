@@ -1,0 +1,66 @@
+annotated-types==0.7.0
+anyio==4.9.0
+Bottleneck @ file:///croot/bottleneck_1731058641041/work
+Brotli @ file:///croot/brotli-split_1736182456865/work
+certifi==2025.7.14
+click==8.2.1
+contourpy @ file:///croot/contourpy_1732540045555/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+dnspython==2.7.0
+email_validator==2.2.0
+fastapi==0.116.1
+fastapi-cli==0.0.8
+fastapi-cloud-cli==0.1.4
+fonttools @ file:///croot/fonttools_1737039080035/work
+h11==0.16.0
+httpcore==1.0.9
+httptools==0.6.4
+httpx==0.28.1
+idna==3.10
+Jinja2==3.1.6
+joblib @ file:///work/perseverance-python-buildout/croot/joblib_1728392999985/work
+kiwisolver @ file:///croot/kiwisolver_1737039087198/work
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+matplotlib==3.10.0
+mdurl==0.1.2
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+numexpr @ file:///croot/numexpr_1752521720723/work
+numpy @ file:///croot/numpy_and_numpy_base_1750883793662/work/dist/numpy-2.3.1-cp313-cp313-linux_x86_64.whl#sha256=66357cf457507777f5612df50f8524801e3d45e5f2c67feb1c9a7dbb1df9e8a8
+packaging @ file:///croot/packaging_1734472117206/work
+pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp313-cp313-linux_x86_64.whl#sha256=248baa16b8f7b48e3a9c0e641fba9a72bce9c95c0dddf7c9a7547016b61fe3fb
+pillow @ file:///croot/pillow_1752524526621/work
+pydantic==2.11.7
+pydantic_core==2.33.2
+Pygments==2.19.2
+pyparsing @ file:///io/buildout/croot/pyparsing_1735862672222/work
+python-dateutil @ file:///work/perseverance-python-buildout/croot/python-dateutil_1728385355105/work
+python-dotenv==1.1.1
+python-multipart==0.0.20
+pytz @ file:///croot/pytz_1752135852232/work
+PyYAML==6.0.2
+rich==14.0.0
+rich-toolkit==0.14.8
+rignore==0.6.2
+scikit-learn @ file:///croot/scikit-learn_1737988764076/work
+scipy @ file:///croot/scipy_1747238027288/work/dist/scipy-1.15.3-cp313-cp313-linux_x86_64.whl#sha256=ef0f7946c766acf9935b91f06cb7735ddb4890c85109a813e5ea260749c68c5c
+seaborn @ file:///croot/seaborn_1749110291192/work
+sentry-sdk==2.33.0
+setuptools==72.1.0
+shellingham==1.5.4
+six @ file:///croot/six_1744271502820/work
+sniffio==1.3.1
+starlette==0.47.1
+threadpoolctl @ file:///croot/threadpoolctl_1731006087558/work
+typer==0.16.0
+typing-inspection==0.4.1
+typing_extensions==4.14.1
+tzdata @ file:///croot/python-tzdata_1746123641790/work
+urllib3==2.5.0
+uvicorn==0.35.0
+uvloop==0.21.0
+watchfiles==1.1.0
+websockets==15.0.1
+wheel==0.45.1

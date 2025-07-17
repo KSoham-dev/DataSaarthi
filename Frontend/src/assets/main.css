@@ -1,0 +1,17 @@
+@import './base.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  flex: 0 0 280px; 
+}

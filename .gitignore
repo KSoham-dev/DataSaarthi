@@ -1,0 +1,80 @@
+# Node.js / Vue.js
+node_modules/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Conda Environments
+conda-env/
+.conda/
+
+# Vue.js build output [1, 4]
+/dist/
+
+# Python packaging
+build/
+*.egg-info/
+sdist/
+wheels/
+*.egg
+
+
+# Environment variables [1, 3, 8]
+.env
+.env.*
+.env.local
+.env.*.local
+
+# But keep example files in the repository
+!*.env.example
+!*.env.sample
+
+# Credentials files
+credentials.json
+secrets.yaml
+*.pem
+*.key
+
+# Python caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Vue / Vite / Node caches [3]
+.cache/
+.vite-cache/
+.parcel-cache/
+.eslintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Miscellaneous
+.ipynb_checkpoints
+*.pyi
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
