@@ -4,9 +4,9 @@ export const store = reactive({
     file : null,
     fileInput : null,
 
-    cur_file_id : localStorage.getItem("current_file"),
-    cur_file_name : localStorage.getItem("current_file_name"),
-    cur_file_size : localStorage.getItem("current_file_size"),
+    cur_file_id : localStorage.getItem("current_file") || null,
+    cur_file_name : localStorage.getItem("current_file_name") || null,
+    cur_file_size : localStorage.getItem("current_file_size") || null,
 
     uploadError : '',
     csvErrorMessage : '',
@@ -21,5 +21,10 @@ export const store = reactive({
         localStorage.setItem("current_file", cur_file_id);
         localStorage.setItem("current_file_name", cur_file_name);
         localStorage.setItem("current_file_size", cur_file_size);
+    },  
+
+    removeFile(){
+        store.file = null;
     }
+    
 });

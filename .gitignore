@@ -78,3 +78,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 
+# Ouputput directories
+uploads/
+Backend/file_mapping.json
