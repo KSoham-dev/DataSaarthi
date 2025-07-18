@@ -1,0 +1,82 @@
+{
+    "status_code": 200,
+    "success": {
+        "message": "image uploaded",
+        "code": 200
+    },
+    "image": {
+        "name": "Y4TP5a",
+        "extension": "png",
+        "size": 44952,
+        "width": 640,
+        "height": 480,
+        "date": "2025-07-17 16:36:34",
+        "date_gmt": "2025-07-17 09:36:34",
+        "title": "correlation matrix",
+        "description": null,
+        "nsfw": 0,
+        "storage_mode": "direct",
+        "md5": "7eed8374c1d454e68297dcc90388049d",
+        "source_md5": null,
+        "original_filename": "correlation_matrix.png",
+        "original_exifdata": null,
+        "views": 0,
+        "category_id": null,
+        "chain": 7,
+        "thumb_size": 8119,
+        "medium_size": 43198,
+        "expiration_date_gmt": "2025-07-31 09:36:33",
+        "likes": 0,
+        "is_animated": 0,
+        "is_approved": 1,
+        "is_360": 0,
+        "file": {
+            "resource": {
+                "type": "url"
+            }
+        },
+        "id_encoded": "Y4TP5a",
+        "filename": "Y4TP5a.png",
+        "mime": "image\/png",
+        "url": "https:\/\/s6.imgcdn.dev\/Y4TP5a.png",
+        "ratio": 1.3333333333333333,
+        "size_formatted": "45 KB",
+        "url_viewer": "https:\/\/imgcdn.dev\/i\/correlation-matrix.Y4TP5a",
+        "url_short": "https:\/\/imgcdn.dev\/i\/Y4TP5a",
+        "image": {
+            "filename": "Y4TP5a.png",
+            "name": "Y4TP5a",
+            "mime": "image\/png",
+            "extension": "png",
+            "url": "https:\/\/s6.imgcdn.dev\/Y4TP5a.png",
+            "size": 44952
+        },
+        "thumb": {
+            "filename": "Y4TP5a.th.png",
+            "name": "Y4TP5a.th",
+            "mime": "image\/png",
+            "extension": "png",
+            "url": "https:\/\/s6.imgcdn.dev\/Y4TP5a.th.png",
+            "size": 8119
+        },
+        "medium": {
+            "filename": "Y4TP5a.md.png",
+            "name": "Y4TP5a.md",
+            "mime": "image\/png",
+            "extension": "png",
+            "url": "https:\/\/s6.imgcdn.dev\/Y4TP5a.md.png",
+            "size": 43198
+        },
+        "display_url": "https:\/\/s6.imgcdn.dev\/Y4TP5a.md.png",
+        "display_width": 500,
+        "display_height": 375,
+        "views_label": "views",
+        "likes_label": "likes",
+        "how_long_ago": "moments ago",
+        "date_fixed_peer": "2025-07-17 09:36:34",
+        "title_truncated": "correlation matrix",
+        "title_truncated_html": "correlation matrix",
+        "is_use_loader": false
+    },
+    "status_txt":"OK"
+}

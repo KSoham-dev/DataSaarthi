@@ -22,37 +22,37 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/EDA" class="nav-link text-white" active-class="active">
+                    <router-link to="/EDA" class="nav-link text-white" active-class="active" :class="{'disabled': store.cur_file_id == null}">
                         <img src="@/assets/icons/EDA.svg" alt="EDA" width="20px" class="me-2">
                         Exploratory Data Analysis
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/FeatureEngg" class="nav-link text-white" active-class="active">
+                    <router-link to="/FeatureEngg" class="nav-link text-white" active-class="active" :class="{'disabled': store.pageNo != 2}">
                         <img src="@/assets/icons/FE.svg" alt="Feature Engineering" width="20px" class="me-2">
                         Feature Engineering
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/Training" class="nav-link text-white" active-class="active">
+                    <router-link to="/Training" class="nav-link text-white disabled" active-class="active">
                         <img src="@/assets/icons/training.svg" alt="Model Training" width="20px" class="me-2">
                         Model Training
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/Evaluation" class="nav-link text-white" active-class="active">
+                    <router-link to="/Evaluation" class="nav-link text-white disabled" active-class="active">
                         <img src="@/assets/icons/eval.svg" alt="Model Evaluation" width="20px" class="me-2">
                         Model Evaluation
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/Predictions" class="nav-link text-white" active-class="active">
+                    <router-link to="/Predictions" class="nav-link text-white disabled" active-class="active">
                         <img src="@/assets/icons/predictions.svg" alt="Model Predictions" width="20px" class="me-2">
                         Model Predictions
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/export" class="nav-link text-white" active-class="active">
+                    <router-link to="/export" class="nav-link text-white disabled" active-class="active">
                         <img src="@/assets/icons/export.svg" alt="Export" width="20px" class="me-2">
                         Export
                     </router-link>
@@ -62,8 +62,13 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: 'BSNavbar',
-}
+<script setup>
+import {store} from '@/store.js';
 </script>
+
+<style scoped>
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+</style>
