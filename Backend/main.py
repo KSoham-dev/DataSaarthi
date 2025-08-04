@@ -1,5 +1,4 @@
 import json
-from math import e
 import shutil
 from pathlib import Path
 import uuid
@@ -324,6 +323,23 @@ async def get_eda(file_id: str) -> Dict[str, Any]:
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error performing EDA: {e}")
 
+@app.get("/eda2/{file_id}")
+def get_eda2(file_id: str) -> Dict[str, Any]:
+    """Performs EDA and returns the results without saving figures."""
+    file_mapping = load_mappings()
+    session_info = get_session_info(file_id)
+    file_path = Path(session_info["session_dir"]) / session_info["original_filename"]
+
+    if not file_path.exists():
+        raise HTTPException(status_code=404, detail="Original data file is missing.")
+
+    try:
+        df = pd.read_csv(file_path)
+        if df.empty:
+            raise HTTPException(status_code=400, detail="The file is empty.")
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading file data: {e}")
 
 @app.get("/")
 def read_root():
